@@ -1,0 +1,24 @@
+
+body{
+    background-color: #e8fcfc;
+}
+img{
+    height: 180px;
+    width: 180px;
+}
+hr{
+    border-color:#a1d0db;
+    border-style: dotted none none;
+    border-width: 5px;
+    width: 5%;
+    
+}
+h1{
+    color: #66BFBF;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+}
+h3{
+    color: #66BFBF;
+}
+
