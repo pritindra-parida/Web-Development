@@ -1,7 +1,28 @@
-img{
-    background-color: red;
-}
+/*************************Tag Selectors*************************/
 h1{
     color: red;
     font-size: 50px;
+}
+img{
+    transition-duration: 300ms;
+    border-radius: 10mm;
+}
+img:hover{ /* Sudo Class Selector */
+    background-color: gold;
+    transition-duration: 300ms;
+}
+
+/*************************Class Selectors*************************/
+/* Class Selectors have the more priority than tag selectors */
+.bacon{
+    background-color: green;
+}
+.broccoli{
+    background-color: red;
+}
+
+/*************************ID Selectors*************************/
+/* ID Selectors have the more priority than class and tag selectors */
+#heading{
+    color: blue;
 }

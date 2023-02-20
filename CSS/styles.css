@@ -1,10 +1,12 @@
-
+/*************************Tag Selectors*************************/
 body{
     background-color: #e8fcfc;
 }
 img{
     height: 180px;
     width: 180px;
+    border-radius: 0px;
+    background-color: red;
 }
 hr{
     border-color:#a1d0db;
@@ -20,5 +22,15 @@ h1{
 }
 h3{
     color: #66BFBF;
+}
+
+/*************************ID Selectors*************************/
+#profile-pic{
+    border-radius: 100%;
+    transition-duration: 300ms;
+}
+#profile-pic:hover{
+    border-radius: 10mm;
+    transition-duration: 300ms;
 }
 
