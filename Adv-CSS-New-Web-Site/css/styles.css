@@ -1,0 +1,126 @@
+/***************************Tag Selectors***************************/
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    color: #40514E;
+}
+h1{
+    color: #66BFBF;
+    margin: 20px auto 0;                                        /* For Centering content using margin */
+    font-family: 'Parisienne', cursive;                         /* margin: 0 auto; */
+    font-size: 5rem;   /*16px = 100% = 1em*/
+}
+h2{
+    color: #66BFBF;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+h3{
+    color: #11999E;
+}
+a{
+    color: #11999E;
+    text-decoration: none;
+    font-family: 'Roboto Slab', serif;
+    margin: 10px 20px;
+    transition-duration: 200ms;
+}
+a:hover{
+    transition-duration: 400ms;
+    color: #EAF6F6;
+}
+
+hr{
+    width: 8%;
+    border-style: dotted;
+    border-width: 10px;
+    border-bottom: 0;
+    color: #EAF6F8;
+    margin: 100px auto;
+}
+p{
+    line-height: 2;
+}
+/***************************Class Selectors***************************/
+.top-container{
+    background-color: #E4F9F5;
+    position: relative; 
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.middle-container{
+}
+.bottom-container{
+    background-color: #66BFBF;
+    margin-bottom: 0;
+    margin-top: 100px;
+    padding: 50px 0 10px;
+}
+.top-cloud{
+    position: absolute;
+    top: 50px;
+    right: 350px;
+}
+.bottom-cloud{
+    position: absolute;
+    left: 350px;
+    bottom: 280px;
+}
+.profile-pic{
+    margin-top: 50px;
+}
+.skill1{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.skill2{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+.intro{
+    margin: auto;
+    width: 30%;
+}
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+}
+.contact-heading{
+    margin-bottom: 50px;
+}
+.contact-desc{
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.stmt{
+    margin-bottom: 50px;
+}
+.btn {
+    background: #66BFBF;
+    border-radius: 10px;
+    -webkit-box-shadow: -2px 2px 14px #666666;
+    -moz-box-shadow: -2px 2px 14px #666666;
+    box-shadow: -2px 2px 14px #666666;
+    font-family: 'Roboto Slab', serif;
+    color: #ffffff;
+    font-size: 19px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    transition-duration: 500ms;
+}
+.btn:hover {
+    background-color: #338181;
+    transition-duration: 500ms;
+}
+
+.copyright{
+    padding-top: 20px;
+    color: #EAF6F6;
+    font-size: 0.85rem;
+    margin-bottom: 0;
+}
