@@ -6,10 +6,8 @@
   <title>TinDog</title>
   
   <!-- Google Fonts -->
-  <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Ubuntu&display=swap" rel="stylesheet"> -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="icon" type="svg" href="./fire-flame-curved-solid.svg">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Ubuntu&display=swap" rel="stylesheet">
   
@@ -55,11 +53,11 @@
       <div class="row">
         <div class="col-lg-6">
           <h1 id="heading">Meet new and interesting dogs nearby.</h1>
-          <button type="button" id="apple-button" class="btn btn-dark btn-lg"><i class="fa-brands fa-apple" id="apple-logo"></i> Download</button>
-          <button type="button" class="btn btn-outline-light btn-lg"><i class="fa-brands fa-google-play"></i> Download</button>
+          <button type="button" id="apple-button" class="btn btn-dark btn-lg download-button"><i class="fa-brands fa-apple" id="apple-logo"></i> Download</button>
+          <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fa-brands fa-google-play"></i> Download</button>
         </div>
         <div class="col-lg-6">
-          <img src="images/iphone6.png" alt="iphone-mockup" style="rotate: 20deg;" width="70%">
+          <img class="title-img" src="images/iphone6.png" alt="iphone-mockup">
         </div>
       </div>  
     </div>
@@ -69,16 +67,23 @@
   <!-- Features -->
 
   <section id="features">
-
-    <h3>Easy to use.</h3>
-    <p>So easy to use, even your dog could do it.</p>
-
-    <h3>Elite Clientele</h3>
-    <p>We have all the dogs, the greatest dogs.</p>
-
-    <h3>Guaranteed to work.</h3>
-    <p>Find the love of your dog's life or your money back.</p>
-
+      <div class="row">
+        <div class="col-lg-4 feature-box">
+          <i class="fa-solid fa-circle-check fa-4x icon"></i>
+          <h3>Easy to use.</h3>
+          <p>So easy to use, even your dog could do it.</p>
+        </div>
+        <div class="col-lg-4 feature-box">
+          <i class="fa-solid fa-bullseye fa-4x icon"></i>
+          <h3>Elite Clientele</h3>
+          <p>We have all the dogs, the greatest dogs.</p>
+        </div>
+        <div class="col-lg-4 feature-box">
+          <i class="fa-solid fa-heart fa-4x icon"></i>
+          <h3>Guaranteed to work.</h3>
+          <p>Find the love of your dog's life or your money back.</p>
+        </div>
+      </div>
   </section>
 
 
