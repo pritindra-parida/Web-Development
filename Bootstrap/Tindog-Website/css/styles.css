@@ -1,0 +1,44 @@
+#title{
+  background:#ff4c68;
+  color: #fff;
+}
+#nav-options{
+  color: white;
+}
+#apple-logo{
+  font-size: 1.5rem;
+} 
+h1{
+  /* font-family:'Montserrat', sans-serif; */
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+.container-fluid{
+  padding: 3% 15%;
+}
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Navigation Bar */
+.navbar{
+  padding-bottom: 4.5rem;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  color: white;
+  opacity: 0.5;
+  /* font-family: 'Montserrat', sans-serif; */
+  font-size: 1.2rem;
+}
+#tindog{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 3rem;
+  color:white;
+}
+/* #navvbar{
+  padding-bottom: 4.5rem;
+} */
