@@ -82,3 +82,30 @@ p{
   color: #ff4c68;
   transition-duration: 300ms;
 }
+
+/************************** Testimonials Section **************************/
+#testimonials{
+  padding: 7% 14%;
+  background-color: #ef8172;
+  color: #fff;
+  text-align: center;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 3rem;
+}
+.testimonial-img{
+  border-radius: 100%;
+  width: 10%;
+  margin: 20px;
+}
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
