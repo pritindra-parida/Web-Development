@@ -51,6 +51,16 @@ body{
   position: absolute;
   right: 30%;
 }
+@media (max-width: 1028px){
+  .title-img{
+    position: static;
+    width: 60%;
+    transform: rotate(0);
+  }
+  #title{
+    text-align: center;
+  }
+}
 
 /* Download Button */
 .download-button{
@@ -126,4 +136,39 @@ h2{
 }
 .pricing-col{
   padding: 4% 2%;
+}
+
+/************************** CTA **************************/
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 7% 14%;
+}
+.cta-heading{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: #fff;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  /* padding: 7% 15% 4%; */
+}
+.cta-download-button{
+  margin: 30px 15px;
+}
+/************************** Footer **************************/
+/* Footer Icons */
+.footer-icons{
+  color: grey;
+  margin: 20px 10px;
+  font-size: 1.4rem;
+}
+.footer-icons:hover{
+  color:black;
+}
+#footer{
+  padding: 7% 15%;
+  text-align: center;
+}
+.copyright{
+  padding-top: 2rem;
 }
