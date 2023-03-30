@@ -5,3 +5,4 @@ This repository is dedicated to my journey of learning web development. Here, I 
 - HTML
 - CSS
 - Bootstrap 5.3
+- JavaScript
