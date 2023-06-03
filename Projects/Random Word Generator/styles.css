@@ -3,6 +3,9 @@
   text-align: center;
   padding-top: 5rem;
 }
-.invisible{
-  visibility: hidden;
+.pressed{
+  color:#5a5353;
+}
+.wrongKey{
+  color:red;
 }
