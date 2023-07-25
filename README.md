@@ -7,3 +7,4 @@ This repository is dedicated to my journey of learning Web Development. Here, I 
 - Bootstrap 5.3
 - JavaScript
 - JQuery
+- Node.js
